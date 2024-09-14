@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* style for hero section on home page */
+.hero{
+    background-image: linear-gradient(179.46deg,
+        rgba(0, 0, 0, 0.335692) -12.77%,
+        rgba(0, 0, 0, 0) -12.77%,
+        rgba(0, 0, 0, 0.66) 99.89%
+      ),
+      url("/coverphoto1.jpeg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+  }
+  
+
+/* font */
+.title{
+  font-family: "Inika", serif;
+}
+
+.slider-navlinks, .nav-links, .small-text{
+  font-family: "Inter", sans-serif;
+}
+
+.big-text{
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+/* animation */
+.title, .nav li {
+  animation: fadeIn 3s;
+}
+
+.nav li {
+  position: relative;
+}
+
+.nav li::after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+.nav li:hover::after {
+  width: 100%;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* button animaitons */
+
+@keyframes button1UP {
+  0%{
+    transform: translateY(65px);
+  }
+
+  40%{
+    transform: translateY(0);
+  }
+}
+
+@keyframes button2UP {
+  0%{
+    transform: translateY(65px);
+  }
+
+  100%{
+    transform: translateY(0);
+  }
+}
+
+.info-content{
+  margin-top: 55vh;
+}
+
+
+/* button styles */
+
+.btn {
+  padding: 10px;
+  width: 44%;
+  border-radius: 15px 0px 15px 0px;
+}
+
+.btn-1 {
+  background-color: #edb00f;
+  animation: button1UP 1s;
+}
+
+.btn-2 {
+  background-color: #fdfdff;
+  color: #000;
+  animation: button2UP 1s;
+}
+
+.caret-down{
+  margin-left: 44vw;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(30px);
+  }
+  40% {
+    transform: translateY(5px);
+  }
+  60% {
+    transform: translateY(10px);
+  }
+}
+
+
+@media (min-width:768px) {
+  .btn {
+    padding: 10px;
+    width: 249px;
+    height: 57px;
+  }
+}
+
+@media (min-width:1024px) {
+
+  .info-content{
+    margin-top: 65vh;
+  }
+  
+  .btn{
+    margin-top: -10%;
+  }
+
+  .caret-down{
+    margin-left: 48vw;
+    
+  }
+
+}
