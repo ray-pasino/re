@@ -12,11 +12,11 @@ const Nav = () => {
 
   return (
     <div className="nav flex justify-between mx-2 sm:mx-8 lg:mx-16 relative">
-      <div className="logo flex z-30">
+      <div className="logo flex z-30 mt-4 lg:mt-0">
         <img src={assets.logo} alt="REGENCY LOGO" className="h-12 sm:h-24" />
         <span className="title text-white mt-2 sm:mt-7 text-xl sm:text-2xl font-bold">REGENCY</span>
       </div>
-      <div className="nav-links z-30">
+      <div className="nav-links z-30 mt-4 lg:mt-0">
         <FontAwesomeIcon
           icon={menuSelected ? faXmark : faBarsStaggered}
           className="text-white mt-2 cursor-pointer lg:hidden sm:mt-7"
