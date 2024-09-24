@@ -8,7 +8,7 @@ const Info = () => {
         loop: {},  
       });
   return (
-    <div className='info-content text-white mx-2 sm:mx-8 lg:mx-14'>
+    <div className='info-content text-white mx-2 sm:mx-8 lg:mx-14 z-30 relative'>
       
         <h1 className="big-text font-semibold text-4xl md:text-6xl xl:text-8xl">
           E{text}

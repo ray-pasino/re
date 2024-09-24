@@ -11,12 +11,12 @@ const Nav = () => {
 
 
   return (
-    <div className="nav flex justify-between mx-2 sm:mx-8 lg:mx-16">
-      <div className="logo flex">
+    <div className="nav flex justify-between mx-2 sm:mx-8 lg:mx-16 relative">
+      <div className="logo flex z-30">
         <img src={assets.logo} alt="REGENCY LOGO" className="h-12 sm:h-24" />
         <span className="title text-white mt-2 sm:mt-7 text-xl sm:text-2xl font-bold">REGENCY</span>
       </div>
-      <div className="nav-links">
+      <div className="nav-links z-30">
         <FontAwesomeIcon
           icon={menuSelected ? faXmark : faBarsStaggered}
           className="text-white mt-2 cursor-pointer lg:hidden sm:mt-7"
@@ -34,7 +34,7 @@ const Nav = () => {
 
       {/* trigger slider when menu button is clicked */}
 
-        <div className={`menu-slider bg-black h-screen text-white absolute z-10  text-center p-16 ease-in duration-500 lg:hidden ${menuSelected ? "left-0" : "left-[-100%]"}`}>
+        <div className={`menu-slider bg-black h-screen text-white absolute z-40  text-center p-16 ease-in duration-500 lg:hidden  ${menuSelected ? "left-[-4.3%]" : "left-[-100%]"}`}>
           <ul className="slider-navlinks space-y-8 mt-8 cursor-pointer text-2xl">
             <li>Academics</li>
             <li>Degrees</li>
