@@ -54,7 +54,6 @@ const Hero = () => {
        <img src="./coverphoto5.jpg" className='backgroundImage absolute z-0 h-screen w-full object-cover'/>
          </SwiperSlide>
        </Swiper>
-      //  <img src="./coverphoto1.jpeg" className='backgroundImage absolute z-0 h-screen w-full object-cover'/>
       }
       <div className="gradient absolute z-20"></div> 
       <Nav/>
