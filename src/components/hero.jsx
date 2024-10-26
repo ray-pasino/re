@@ -4,9 +4,8 @@ import Info from './Info'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import 'swiper/css/effect-fade';
+import { Autoplay, EffectFade } from 'swiper/modules';
 
 const Hero = () => {
   
@@ -29,13 +28,12 @@ const Hero = () => {
 
       {imgLoaded &&
          <Swiper
-         spaceBetween={30}
-         centeredSlides={true}
          autoplay={{
            delay: 2500,
            disableOnInteraction: false,
          }}
-         modules={[Autoplay]}
+         effect="fade"
+         modules={[Autoplay, EffectFade]}
          className="mySwiper backgroundImage absolute z-0 h-screen w-full object-cover"
        >
          <SwiperSlide>
