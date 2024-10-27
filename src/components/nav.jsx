@@ -34,7 +34,7 @@ const Nav = () => {
 
       {/* trigger slider when menu button is clicked */}
 
-        <div className={`menu-slider bg-black h-screen text-white absolute z-40  text-center p-16 ease-in duration-500 lg:hidden  ${menuSelected ? "left-[-4.3%]" : "left-[-100%]"}`}>
+        <div className={`menu-slider bg-black h-screen text-white absolute z-40  text-center p-16 sm:p-20 ease-in duration-500 lg:hidden  ${menuSelected ? "left-[-4.3%]" : "left-[-100%]"}`}>
           <ul className="slider-navlinks space-y-8 mt-8 cursor-pointer text-2xl">
             <li>Academics</li>
             <li>Degrees</li>

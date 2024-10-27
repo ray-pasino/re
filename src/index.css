@@ -4,6 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+scroll-behavior: smooth;
+}
 
 /* style for hero section on home page */
   .gradient{
@@ -14,6 +17,12 @@
       );
       width:100vw;
       height: 100vh;
+  }
+
+  .gradient-2{
+    background: linear-gradient(178.28deg, rgba(237, 176, 15, 0.65) 5.57%, rgba(0, 0, 0, 0.351) 98.07%);
+    width: 100vw;
+    height: 100vh;
   }
   
 
@@ -103,18 +112,23 @@
 
 .btn-1 {
   background-color: #edb00f;
-  animation: button1UP 1s;
+  animation: button1UP 1.9s;
 }
 
 .btn-2 {
   background-color: #fdfdff;
   color: #000;
-  animation: button2UP 1s;
+  animation: button2UP 1.9s;
 }
 
 .caret-down{
   margin-left: 44vw;
-  animation: bounce 2s infinite;
+  animation: bounce 3s infinite;
+}
+
+.caret-down:hover {
+  animation: none;
+  transform: translateY(30px);
 }
 
 @keyframes bounce {
@@ -129,6 +143,12 @@
   }
 }
 
+
+@media (max-width:320px) {
+  .caret-down{
+    display: none;
+  }
+}
 
 @media (min-width:768px) {
   .btn {

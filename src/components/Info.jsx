@@ -24,7 +24,9 @@ const Info = () => {
           </div>
         </span>
         <span>
+          <a href="#sec-2">
             <img src={assets.caretdown} className='caret-down mt-8 cursor-pointer'/>
+          </a>
         </span>
       </div>
 
