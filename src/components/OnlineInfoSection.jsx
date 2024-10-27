@@ -68,20 +68,20 @@ const OnlineInfoSection = () => {
       >
         <SwiperSlide>
             <div className='card rounded-md flex flex-col items-center shadow-lg'>
-                <img src={assets.exploreIcon} alt="explore" className='w-full h-full object-contain p-8'/>
-                <p className='font-bold text-2xl p-4'>EXPLORE PROGRAMS</p>
+                <img src={assets.exploreIcon} alt="explore" className=''/>
+                <p className='font-bold text-2xl '>EXPLORE PROGRAMS</p>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className='card rounded-md flex flex-col items-center shadow-lg'>
-            <img src={assets.badgeIcon} alt="experience" className='w-full h-full object-contain p-8'/>
-            <p className='font-bold text-2xl p-4'>THE REGENCY EXPERIENCE</p>
+            <img src={assets.badgeIcon} alt="experience" className=''/>
+            <p className='font-bold text-2xl '>THE REGENCY EXPERIENCE</p>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className='card rounded-md flex flex-col items-center shadow-lg'>
-            <img src={assets.aboutIcon} alt="about"  className='w-full h-full object-contain p-8'/>
-            <p className='font-bold text-2xl p-4'>ABOUT ADMISSION</p>
+            <img src={assets.aboutIcon} alt="about"  className=''/>
+            <p className='font-bold text-2xl'>ABOUT ADMISSION</p>
             </div>
         </SwiperSlide>
     
