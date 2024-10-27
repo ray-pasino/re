@@ -19,8 +19,8 @@ const Info = () => {
             From faith to faith, from glory to glory!
           </h1>
           <div className="buttons-container flex justify-between font-semibold lg:space-x-8">
-            <button className="btn btn-1">Request Info</button>
-            <button className="btn btn-2">View Programs</button>
+            <button className="btn btn-1 lg:text-lg">Request Info</button>
+            <button className="btn btn-2 lg:text-lg">View Programs</button>
           </div>
         </span>
         <span>

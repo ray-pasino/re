@@ -24,7 +24,7 @@ const Nav = () => {
           onClick={toggleMenu}
         />
 
-        <ul className="nav hidden lg:flex text-white space-x-4 font-bold text-2xl mt-7 cursor-pointer">
+        <ul className="nav hidden lg:flex text-white space-x-4 lg:space-x-8 font-bold text-2xl mt-7 cursor-pointer">
             <li>Academics</li>
             <li>Degrees</li>
             <li>Admissions</li>
