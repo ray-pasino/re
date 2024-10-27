@@ -174,3 +174,9 @@ scroll-behavior: smooth;
   }
 
 }
+
+.card{
+  background-color:#D7D6D4;
+  border: 2px solid #FAFAF9;
+  height: 33vh;
+}
