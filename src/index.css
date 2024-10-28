@@ -146,7 +146,7 @@ scroll-behavior: smooth;
 
 @media (max-width:320px) {
   .caret-down{
-    display: none;
+    margin-top: -15px;
   }
 }
 
@@ -175,8 +175,16 @@ scroll-behavior: smooth;
 
 }
 
+
+@media (min-width:344px) {
+  .info-p{
+    font-size: 18px;
+  }
+  
+}
+
 .card{
   background-color:#D7D6D4;
   border: 2px solid #FAFAF9;
-  height: 33vh;
+  height: 220px;
 }

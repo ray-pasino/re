@@ -35,13 +35,13 @@ const OnlineInfoSection = () => {
         }
 
         <div className="gradient-2 absolute z-20 sm:hidden"></div>
-        <div className="sec-info absolute z-30 sm:hidden mt-[2vh] text-white flex flex-col m-[34px]">
-            <p className='text-[30px] font-bold h-[20vh]'>
+        <div className="sec-info absolute z-30 sm:hidden mt-[2vh] text-white flex flex-col m-[34px] justify-between h-[98vh]">
+            <p className='text-[25px] font-bold'>
                 <span className='w-screen mr-2'>Always On The Move??</span>
                 <span className='w-screen'>So Are We.</span>
             </p>
 
-            <p className='font-semibold text-[16px] h-[40vh]'>
+            <p className='font-semibold text-[14px] info-p'>
             Unlike traditional universities offering online classes, we are a mobile university tailored specifically for busy adults.
              Our innovative platform allows you to complete and submit coursework directly from your smartphone. Yes, it's that convenient.<br/>
              <a className='text-blue-600 border-b border-blue-600' href='#'>Learn More</a>
@@ -64,24 +64,24 @@ const OnlineInfoSection = () => {
             clickable: true,
           }}
         modules={[EffectCreative, Pagination]}
-        className="mySwiper h-[38vh] w-[85vw] mb-0"
+        className="mySwiper w-[70vw] h-[250px] mb-0 justify-center"
       >
         <SwiperSlide>
             <div className='card rounded-md flex flex-col items-center shadow-lg'>
-                <img src={assets.exploreIcon} alt="explore" className=''/>
-                <p className='font-bold text-2xl '>EXPLORE PROGRAMS</p>
+                <img src={assets.exploreIcon} alt="explore" className='h-[116px] mb-4 p-2 mt-6'/>
+                <p className='font-bold text-lg'>EXPLORE PROGRAMS</p>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className='card rounded-md flex flex-col items-center shadow-lg'>
-            <img src={assets.badgeIcon} alt="experience" className=''/>
-            <p className='font-bold text-2xl '>THE REGENCY EXPERIENCE</p>
+            <img src={assets.badgeIcon} alt="experience" className='h-[116px] p-2 mt-2'/>
+            <p className='font-bold text-[16px] mt-9'>THE REGENCY EXPERIENCE</p>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className='card rounded-md flex flex-col items-center shadow-lg'>
-            <img src={assets.aboutIcon} alt="about"  className=''/>
-            <p className='font-bold text-2xl'>ABOUT ADMISSION</p>
+            <img src={assets.aboutIcon} alt="about"  className='h-[116px] p-2 mt-2'/>
+            <p className='font-bold text-lg mt-9'>ABOUT ADMISSION</p>
             </div>
         </SwiperSlide>
     
