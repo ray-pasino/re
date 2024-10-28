@@ -35,7 +35,7 @@ const OnlineInfoSection = () => {
         }
 
         <div className="gradient-2 absolute z-20 sm:hidden"></div>
-        <div className="sec-info absolute z-30 sm:hidden mt-[2vh] mb-[2vh] text-white flex flex-col m-[34px] justify-between h-[96vh]">
+        <div className="sec-info absolute z-30 sm:hidden mt-[4vh] mb-[4vh] text-white flex flex-col m-[34px] justify-between h-[92vh]">
             <p className='text-[25px] font-bold'>
                 <span className='w-screen mr-2'>Always On The Move??</span>
                 <span className='w-screen'>So Are We.</span>
