@@ -26,7 +26,7 @@ const OnlineInfoSection = () => {
     },[])
 
   return (
-    <div className='sec-2 h-screen relative' id='sec-2'>
+    <div className='sec-2 h-[100vh] relative' id='sec-2'>
         {
         !backgroundLoaded ?
        <img src="./ladyblur.png" className='backgroundImage absolute z-0 h-screen w-full object-cover'/>
