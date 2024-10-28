@@ -74,14 +74,14 @@ const OnlineInfoSection = () => {
         </SwiperSlide>
         <SwiperSlide>
             <div className='card rounded-md flex flex-col items-center shadow-lg'>
-            <img src={assets.badgeIcon} alt="experience" className='h-[116px] p-2 mt-2'/>
-            <p className='font-bold text-[16px] mt-9'>THE REGENCY EXPERIENCE</p>
+            <img src={assets.badgeIcon} alt="experience" className='h-[116px] p-4 mt-8'/>
+            <p className='font-bold text-lg mt-2'>THE REGENCY EXPERIENCE</p>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className='card rounded-md flex flex-col items-center shadow-lg'>
-            <img src={assets.aboutIcon} alt="about"  className='h-[116px] p-2 mt-2'/>
-            <p className='font-bold text-lg mt-9'>ABOUT ADMISSIONS</p>
+            <img src={assets.aboutIcon} alt="about"  className='h-[116px] p-4 mt-8'/>
+            <p className='font-bold text-lg mt-2'>ABOUT ADMISSIONS</p>
             </div>
         </SwiperSlide>
     
