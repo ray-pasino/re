@@ -35,7 +35,7 @@ const OnlineInfoSection = () => {
         }
 
         <div className="gradient-2 absolute z-20 sm:hidden"></div>
-        <div className="sec-info absolute z-30 sm:hidden mt-[2vh] text-white flex flex-col m-[34px] justify-between h-[98vh]">
+        <div className="sec-info absolute z-30 sm:hidden mt-[2vh] mb-[2vh] text-white flex flex-col m-[34px] justify-between h-[96vh]">
             <p className='text-[25px] font-bold'>
                 <span className='w-screen mr-2'>Always On The Move??</span>
                 <span className='w-screen'>So Are We.</span>
@@ -81,7 +81,7 @@ const OnlineInfoSection = () => {
         <SwiperSlide>
             <div className='card rounded-md flex flex-col items-center shadow-lg'>
             <img src={assets.aboutIcon} alt="about"  className='h-[116px] p-2 mt-2'/>
-            <p className='font-bold text-lg mt-9'>ABOUT ADMISSION</p>
+            <p className='font-bold text-lg mt-9'>ABOUT ADMISSIONS</p>
             </div>
         </SwiperSlide>
     
