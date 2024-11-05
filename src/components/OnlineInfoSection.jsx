@@ -38,7 +38,7 @@ const OnlineInfoSection = () => {
         !backgroundLoaded ?
        <img src="./ladyblur.png" className='backgroundImage absolute z-0 h-screen w-full object-cover'/>
             :
-       <img src="./lady.jpg" className='backgroundImage absolute z-0 h-screen w-full object-cover opacity-[40%] sm:opacity-[70%]'/>
+       <img src="./lady.jpg" className='backgroundImage absolute z-0 h-screen w-full object-cover opacity-[40%] sm:opacity-[52%]'/>
         }
 
         {/* display for mobile */}
@@ -101,9 +101,10 @@ const OnlineInfoSection = () => {
 
 
           {/* display for larger screens */}
-        <div className='sec-info-desktop absolute z-30 hidden sm:flex flex-col text-white h-screen justify-between'>
+        
+        <div className='sec-info-desktop absolute z-30 hidden sm:flex flex-col text-white h-screen justify-between bg-[#0000001A]'>
 
-          <div className="top-banner bg-[#8C6E1A] h-14 w-screen"></div>
+          <div className="top-banner bg-[#8C6E1A] h-14 "></div>
 
           {/* link icons */}
           <div className='flex items-center justify-center space-x-6 xl:space-x-40'>
@@ -125,8 +126,8 @@ const OnlineInfoSection = () => {
           {/* info */}
 
 
-<div className="flex flex-col sm:flex-row justify-center items-center mb-20 px-4 md:px-8 lg:px-16 space-x-4">
-    <div className="text w-2/5 lg:w-2/5 mb-6 md:mb-0">
+<div className="flex flex-col sm:flex-row justify-center items-center mb-8 px-4 md:px-8 lg:px-16 space-x-4 ">
+    <div className="text  w-2/5 lg:w-2/5 mb-6 md:mb-0">
         <p className='text-2xl md:text-3xl mb-4 font-extrabold text-center md:text-left'>
             Always On The Move?? So Are We
         </p>
