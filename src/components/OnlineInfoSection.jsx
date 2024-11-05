@@ -145,7 +145,7 @@ const OnlineInfoSection = () => {
         <div>
             {
                 !manimageLoaded ?
-                <img src='./man-blur.png' alt="man studying online" className='w-full h-auto' /> :
+                <img src='./man-blur.png' alt="man studying online" /> :
                 <div className='relative'>
                     <img src='./man.jpg' alt="man studying online" className='' />
                     <div className="gradient-3 absolute top-0 left-0 z-30"></div>
