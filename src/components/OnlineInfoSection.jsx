@@ -126,7 +126,7 @@ const OnlineInfoSection = () => {
           {/* info */}
 
 
-<div className="flex flex-col sm:flex-row justify-center items-center mb-8 px-4 md:px-8 lg:px-16 space-x-4 ">
+<div className="flex flex-col sm:flex-row justify-center items-center mb-4 px-4 md:px-8 lg:px-16 space-x-4 ">
     <div className="text  w-2/5 lg:w-2/5 mb-6 md:mb-0">
         <p className='text-2xl md:text-3xl mb-4 font-extrabold text-center md:text-left'>
             Always On The Move?? So Are We
