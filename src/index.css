@@ -24,6 +24,12 @@ scroll-behavior: smooth;
     width: 100vw;
     height: 100vh;
   }
+
+  .gradient-3{
+    background: rgba(163, 139, 72, 0.3);
+    width: 100%;
+    height: 100%;
+  }
   
 
 /* font */
@@ -187,4 +193,33 @@ scroll-behavior: smooth;
   background-color:#D7D6D4;
   border: 2px solid #FAFAF9;
   height: 220px;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+
+.card-container{
+  transition: box-shadow 0.3s ease; 
+}
+
+.card-container:hover{
+  box-shadow: -6px -8px 12px  rgb(124, 119, 119), 6px 8px 12px  rgb(124, 119, 119);
+}
+
+.card-2{
+
+}
+
+.card-3 {
+
 }
