@@ -131,7 +131,7 @@ const OnlineInfoSection = () => {
         <p className='text-2xl md:text-3xl mb-4 font-extrabold text-center md:text-left'>
             Always On The Move?? So Are We
         </p>
-        <p className='text-base md:text-xl lg:text-2xl font-bold text-center md:text-left'>
+        <p className='text-bold md:text-xl lg:text-2xl font-bold text-center md:text-left'>
             Unlike traditional universities offering online classes, we are a mobile university tailored specifically for busy adults.
             Our innovative platform allows you to complete and submit coursework directly from your smartphone. Yes, it's that convenient.
             <br />
