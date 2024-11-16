@@ -210,11 +210,12 @@ scroll-behavior: smooth;
 }
 
 
-.card-container{
-  transition: box-shadow 0.3s ease; 
+
+.card-container {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-.card-container:hover{
+.card-container:hover {
   box-shadow: -6px -8px 12px  rgb(124, 119, 119), 6px 8px 12px  rgb(124, 119, 119);
+  transform: translateY(-10px);
 }
-
